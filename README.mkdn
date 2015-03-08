@@ -10,8 +10,8 @@ mkdir ~/bin
 PATH=~/bin:$PATH
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-mkdir -p android/cm12
-cd android/cm12
+mkdir -p android/cm10.1
+cd android/cm10.1
 repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
 ```
 
