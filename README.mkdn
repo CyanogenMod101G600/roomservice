@@ -18,7 +18,8 @@ repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
 2. Add our local manifest
 
 ```bash
-curl --create-dirs -L -o .repo/local_manifests/titan.xml -O -L https://raw.github.com/CyanogenMod101Y300/roomservice/cm-10.1/manifest.xml
+curl --create-dirs -L -o .repo/local_manifests/huawei.xml -O -L 
+https://raw.github.com/CyanogenMod101Y300/roomservice/cm-10.1/manifest.xml
 ```
 
 3. Download sources
