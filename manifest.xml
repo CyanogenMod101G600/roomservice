@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    
+    <remove-project name="CyanogenMod/android_packages_apps_Launcher2" />
+    
     <!-- Android Build -->
     <remove-project name="CyanogenMod/android_build" />
     <project path="build" name="CyanogenMod101Y300/android_build" remote="github" revision="cm-10.1" />
@@ -10,7 +13,7 @@
 
     <!-- Device Folders, Kernel & Proprietary BLOBS -->
     <project path="vendor/huawei" name="CyanogenMod101Y300/proprietary_vendor_huawei" remote="github" revision="cm-10.1" />
-    <project path="kernel/huawei/u8833" name="CyanogenMod101Y300/android_kernel_synopsis" remote="github" revision="master" />
+    <project path="kernel/huawei/u8833" name="CyanogenMod101Y300/android_kernel_huawei_msm8x25-common" remote="github" revision="jb" />
     <project path="device/huawei/u8833" name="CyanogenMod101Y300/android_device_huawei_u8833" remote="github" revision="cm-10.1" />
     <project path="device/huawei/u8825" name="CyanogenMod101Y300/android_device_huawei_u8825" remote="github" revision="cm-10.1" />
 
