@@ -1,7 +1,7 @@
 CyanogenMod 10.1
 ================
 
-Build Instructions for CyanogenMod 10.1 Huawei Y300/G510 & G330
+Build Instructions for CyanogenMod 10.1 Huawei G600
 
 1. Initialize repo using the following commands
 
@@ -19,16 +19,10 @@ repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
 
 ```bash
 curl --create-dirs -L -o .repo/local_manifests/huawei.xml -O -L 
-https://raw.github.com/CyanogenMod101Y300/roomservice/cm-10.1/manifest.xml
+https://raw.github.com/CyanogenMod101G600/roomservice/cm-10.1/manifest.xml
 ```
 
 3. Download sources
 ```bash
 repo sync -f -j5
-```
-
-4. Build CyanogenMod 10.1 for Huawei Y300/G510 & G330
-
-```bash
-./build.sh
 ```
